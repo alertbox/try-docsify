@@ -44,7 +44,7 @@ cd my-awesome-docsify
 docker-compose up -d
 ```
 
-That's it. Go to your favorite browser and visit [localhost:8020](https://localhost:8020).
+That's it. Go to your favorite browser and visit [localhost:8020](http://localhost:8020).
 
 <p align="center">
   <img alt="The template markdown in action" src="https://user-images.githubusercontent.com/958227/84351159-6b515780-abd8-11ea-8a28-cb5524eb1e6e.png" width="786">

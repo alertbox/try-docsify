@@ -60,7 +60,7 @@ docker run -dp 8020:3000 -v `pwd`/docs:/var/www alertbox/docsify-served
 cd gh-quickstart && docker-compose up -d
 ```
 
-To test the changes, you launch your favorite browser and visit [https://localhost:8020](https://localhost:8020).
+To test the changes, you launch your favorite browser and visit [http://localhost:8020](http://localhost:8020).
 
 ### Pull Requests
 
