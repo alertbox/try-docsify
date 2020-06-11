@@ -1,0 +1,10 @@
+version: "3.8"
+
+services: 
+
+  gh-minimalist:
+    image: alertbox/docsify-served
+    ports: 
+      - 8020:3000/tcp
+    volumes: 
+      - ${PWD}/docs:/var/www
