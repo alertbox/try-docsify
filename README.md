@@ -2,7 +2,6 @@
 
 [![docsify](https://img.shields.io/badge/maintained%20with-docsify-cc00ff.svg)](https://docsify.js.org/)
 ![GitHub repo size](https://img.shields.io/github/repo-size/alertbox/gh-quickstart)
-![GitHub top language](https://img.shields.io/github/languages/top/alertbox/gh-quickstart)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
 [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/alertbox/gh-quickstart)
 

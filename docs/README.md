@@ -6,7 +6,6 @@
 
 [![docsify](https://img.shields.io/badge/maintained%20with-docsify-cc00ff.svg)](https://docsify.js.org/)
 ![GitHub repo size](https://img.shields.io/github/repo-size/alertbox/gh-quickstart)
-![GitHub top language](https://img.shields.io/github/languages/top/alertbox/gh-quickstart)
 ![GitHub](https://img.shields.io/github/license/alertbox/gh-quickstart)
 
 For the old projects that are already running Docsify or you initialized using `docsify-cli`, you should have a look at [Docsify Served](https://alertbox/github.io/docsify-served/). But, for new projects, luckily, we have enabled [gh-quickstart](https://github.com/alertbox/gh-quickstart/generate/) as a GitHub Template repository so you can simply Docsify yourself.
