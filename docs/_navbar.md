@@ -1,4 +1,4 @@
-- [Getting Started](#welcome)
+- [Getting Started](quick-start.md)
 - [Feedback](#feedback)
 - [GitHub](https://github.com)
 - [Docsify](https://docsify.js.org)
