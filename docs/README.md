@@ -1,6 +1,6 @@
 ## Welcome
 
-> A template repository to get started with Docsify. Find out more at [docsify.js.org](https://docsify.js.org).
+> A quick start GitHub template repository with Docsify. Find out more at [docsify.js.org](https://docsify.js.org).
 
 ## Features
 
@@ -20,9 +20,8 @@ For the old projects that are already running Docsify or you initialized using `
 
 > This template also consist of a few Markdown files inside the `docs/` folder based on the Docsify boilerplate.
 
-- `_coverpage.md` is the Cover Page you see when you load the site
 - `README.md` is this Welcome Page
-- `_navbar.md` is the Menu on the top of Cover Page and each Article
+- `_navbar.md` is the Menu on the top of each Article
 - `_sidebar.md` is the left-side Pane which you can toggle
 - `_footer.md` is for footer content on the bottom of every Article
 - `_404.md` is the Page for broken links
