@@ -9,7 +9,7 @@
 A template repository to get started with Docsify. Find out more at [docsify.js.org](https://docsify.js.org).
 
 <p align="center">
-  <img alt="The gh-minimalist in action" src="https://user-images.githubusercontent.com/958227/84028138-d4a15280-a9ad-11ea-93d1-43ebace761b3.png" width="1024">
+  <img alt="The gh-minimalist in action" src="https://user-images.githubusercontent.com/958227/84348174-eebb7a80-abd1-11ea-84cf-d27ce285a2b3.png" width="1024">
 </p>
 
 > the gh-minimalist template markdown in action.
@@ -17,7 +17,7 @@ A template repository to get started with Docsify. Find out more at [docsify.js.
 ## Contents
 
 - [Requirements](#requirements)
-- [Use the Template](#use-the-template)
+- [Using This Template](#using-this-template)
 - [Feedback](#feedback)
 - [Contributing](#contributing)
 - [License](#license)
@@ -31,7 +31,7 @@ The GitHub Minimalist works with:
 
 You will want to see the [hosted version](https://alertbox.github.io/gh-minimalist/) to have a feel of the most basic level.
 
-## Use the Template
+## Using This Template
 
 Check out the [quick start guide](https://alertbox.github.io/gh-minimalist/#/quick-start).
 
