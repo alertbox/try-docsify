@@ -47,7 +47,7 @@ docker-compose up -d
 That's it. Go to your favorite browser and visit [localhost:8020](https://localhost:8020).
 
 <p align="center">
-  <img alt="The template markdown in action" src="https://user-images.githubusercontent.com/958227/84348174-eebb7a80-abd1-11ea-84cf-d27ce285a2b3.png" width="786">
+  <img alt="The template markdown in action" src="https://user-images.githubusercontent.com/958227/84351159-6b515780-abd8-11ea-8a28-cb5524eb1e6e.png" width="786">
 </p>
 
 ## Final Touches

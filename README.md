@@ -9,7 +9,7 @@
 A template repository to get started with Docsify. Find out more at [docsify.js.org](https://docsify.js.org).
 
 <p align="center">
-  <img alt="The gh-quickstart in action" src="https://user-images.githubusercontent.com/958227/84348174-eebb7a80-abd1-11ea-84cf-d27ce285a2b3.png" width="1024">
+  <img alt="The gh-quickstart in action" src="https://user-images.githubusercontent.com/958227/84351159-6b515780-abd8-11ea-8a28-cb5524eb1e6e.png" width="1024">
 </p>
 
 > the gh-quickstart template markdown in action.
