@@ -1,9 +1,10 @@
 # GitHub Quick Start
 
-[![docsify](https://img.shields.io/badge/maintained%20with-docsify-cc00ff.svg)](https://docsify.js.org/)
-![GitHub repo size](https://img.shields.io/github/repo-size/alertbox/gh-quickstart)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
 [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/alertbox/gh-quickstart)
+[![docsify](https://img.shields.io/badge/maintained%20with-docsify-cc00ff.svg)](https://docsify.js.org/)
+![GitHub repo size](https://img.shields.io/github/repo-size/alertbox/gh-quickstart)
+![GitHub release (latest SemVer including pre-releases)](https://img.shields.io/github/v/release/alertbox/gh-quickstart?include_prereleases)
 
 A template repository to get started with Docsify. Find out more at [docsify.js.org](https://docsify.js.org).
 
