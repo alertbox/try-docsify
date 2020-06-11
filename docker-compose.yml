@@ -2,7 +2,7 @@ version: "3.8"
 
 services: 
 
-  gh-minimalist:
+  gh-quickstart:
     image: alertbox/docsify-served
     ports: 
       - 8020:3000/tcp

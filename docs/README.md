@@ -5,18 +5,18 @@
 ## Features
 
 [![docsify](https://img.shields.io/badge/maintained%20with-docsify-cc00ff.svg)](https://docsify.js.org/)
-![GitHub repo size](https://img.shields.io/github/repo-size/alertbox/gh-minimalist)
-![GitHub top language](https://img.shields.io/github/languages/top/alertbox/gh-minimalist)
-![GitHub](https://img.shields.io/github/license/alertbox/gh-minimalist)
+![GitHub repo size](https://img.shields.io/github/repo-size/alertbox/gh-quickstart)
+![GitHub top language](https://img.shields.io/github/languages/top/alertbox/gh-quickstart)
+![GitHub](https://img.shields.io/github/license/alertbox/gh-quickstart)
 
-For the old projects that are already running Docsify or you initialized using `docsify-cli`, you should have a look at [Docsify Served](https://alertbox/github.io/docsify-served/). But, for new projects, luckily, we have enabled [gh-minimalist](https://github.com/alertbox/gh-minimalist/generate/) as a GitHub Template repository so you can simply Docsify yourself.
+For the old projects that are already running Docsify or you initialized using `docsify-cli`, you should have a look at [Docsify Served](https://alertbox/github.io/docsify-served/). But, for new projects, luckily, we have enabled [gh-quickstart](https://github.com/alertbox/gh-quickstart/generate/) as a GitHub Template repository so you can simply Docsify yourself.
 
 - Best for GitHub Pages
 - Built as a GitHub Template repository
 - Built with Docsify in mind
 - No need of install packages locally
 - Supports Markdown and Docisy doc help syntax
-- Maintained by [the Alertbox Team](https://github.com/alertbox/gh-minimalist/)
+- Maintained by [the Alertbox Team](https://github.com/alertbox/gh-quickstart/)
 - Powered by [Docsify](https://docsify.js.org/) and [Docsify Served](https://hub.docker.com/r/alertbox/docsify-served)
 
 > This template also consist of a few Markdown files inside the `docs/` folder based on the Docsify boilerplate.
@@ -32,9 +32,9 @@ For the old projects that are already running Docsify or you initialized using `
 ## Feedback
 
 - Ask a question on [Stack Overflow]()
-- [Request a new feature](https://github.com/alertbox/gh-minimalist/issues/new?assignees=&labels=&template=feature_request.md&title=)
-- Upvote [popular feature requests](https://github.com/alertbox/gh-minimalist/issues)
-- [Report an issue](https://github.com/alertbox/gh-minimalist/issues/new?assignees=&labels=&template=bug_report.md&title=)
+- [Request a new feature](https://github.com/alertbox/gh-quickstart/issues/new?assignees=&labels=&template=feature_request.md&title=)
+- Upvote [popular feature requests](https://github.com/alertbox/gh-quickstart/issues)
+- [Report an issue](https://github.com/alertbox/gh-quickstart/issues/new?assignees=&labels=&template=bug_report.md&title=)
 - Follow [@alertboxinc](https://twitter.com/alertboxinc) and let us know what you think!
 
 ## Learning Resources
@@ -51,5 +51,5 @@ For the old projects that are already running Docsify or you initialized using `
 
 ## Community
 
-- Where to get help [the Docsify Community](https://discord.gg/3NwKFyR/), [the Alertbox Inc.](https://github.com/alertbox/gh-minimalist/issues/), or [Stack Overflow](https://stackoverflow.com/questions/tagged/docsify)
-- Where to file issues [alertbox/gh-minimalist/issues/](https://github.com/alertbox/gh-minimalist/issues/)
+- Where to get help [the Docsify Community](https://discord.gg/3NwKFyR/), [the Alertbox Inc.](https://github.com/alertbox/gh-quickstart/issues/), or [Stack Overflow](https://stackoverflow.com/questions/tagged/docsify)
+- Where to file issues [alertbox/gh-quickstart/issues/](https://github.com/alertbox/gh-quickstart/issues/)

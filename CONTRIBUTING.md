@@ -5,9 +5,9 @@
 Welcome! And thank you for your interest in contributing to the template. There are many ways in which you can contribute, beyond writing code. Here's a high-level overview of how you can get involved:
 
 - Ask questions and problems on [Stack Overflow]()
-- [Submit bugs and feature requests](https://github.com/alertbox/gh-minimalist/issues), and help us verify as they are checked in
+- [Submit bugs and feature requests](https://github.com/alertbox/gh-quickstart/issues), and help us verify as they are checked in
 - Upvote [popular feature requests]()
-- Review [source code changes](https://github.com/alertbox/gh-minimalist/pulls)
+- Review [source code changes](https://github.com/alertbox/gh-quickstart/pulls)
 - Review the [documentation](docs) and make pull requests for anything from typos to new content
 
 ## Contributing to Source Code
@@ -35,16 +35,16 @@ First, fork the repository so that you can make a Pull Request. Then clone your 
 
 ```bash
 #!/bin/bash
-git clone https://github.com/<your-github-account>/gh-minimalist
+git clone https://github.com/<your-github-account>/gh-quickstart
 ```
 
 Occasionally you would want to merge changes the upstream repository (the official code repo) with your fork.
 
 ```bash
 #!/bin/bash
-cd gh-minimalist
+cd gh-quickstart
 git checkout master
-git pull https://github.com/alertbox/gh-minimalist master
+git pull https://github.com/alertbox/gh-quickstart master
 ```
 
 #### Build and run from the source
@@ -53,11 +53,11 @@ First, you want to ensure Docker Desktop is running on your machine so that the 
 
 ```bash
 #!/bin/bash
-cd gh-minimalist
+cd gh-quickstart
 docker run -dp 8020:3000 -v `pwd`/docs:/var/www alertbox/docsify-served
 
 # Or
-cd gh-minimalist && docker-compose up -d
+cd gh-quickstart && docker-compose up -d
 ```
 
 To test the changes, you launch your favorite browser and visit [https://localhost:8020](https://localhost:8020).
