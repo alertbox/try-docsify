@@ -4,14 +4,14 @@
 
 ## Requirements
 
-We (`@alertbox`) use `gh-quickstart` for our GitHub Pages and documentation sites of all sort when using Docsify. First, you will need followings to get started at the most basic level:
+We (`@alertbox`) use [GitHub Quickstart](https://github.com/alertbox/gh-quickstart/generate/) for our Docsify-enabled GitHub repositories of all sort. First, you will need followings to get started at the most basic level:
 
 - A GitHub account
 - An editor, like VS Code
 - Git, and
 - Docker Desktop
 
-For new projects, luckily, we have enabled [gh-quickstart](https://github.com/alertbox/gh-quickstart/generate/) as a GitHub Template so you can simply Docsify yourself without having to install any tools and dependencies via `npm` or `yarn`. You will want to follow this generic pattern:
+For new projects, luckily, we have enabled [GitHub Quickstart](https://github.com/alertbox/gh-quickstart/generate/) as a GitHub Template so you can simply Docsify yourself without having to install any tools and dependencies via `npm` or `yarn`. You will want to follow this generic pattern:
 
 - [Use this template](#use-this-template) to create a copy
 - [Preview locally](#preview-locally) to keep writing content
@@ -19,15 +19,15 @@ For new projects, luckily, we have enabled [gh-quickstart](https://github.com/al
 
 ## Use This Template
 
-First, you will have to create a GitHub account if you don't have one already. [GitHub Guide]() is a good source of information. Sign in to GitHub using your credentials, otherwise.
+First, you will have to create a GitHub account if you don't have one already. [GitHub's Learning Lab](https://lab.github.com/) is a good source of information. Sign in to GitHub using your credentials, otherwise.
 
-Next, you want to create a copy of this source code. The `gh-quickstart` is marked as a `Template` repository so you will only have to [Use This Template](https://github.com/alertbox/gh-quickstart/generate/) and follow the instructions. Read more about this in the [Using GitHub Templates]() document.
+Next, you want to create a copy of this source code. The repository is marked as a `Template` so you will only have to [Use This Template](https://github.com/alertbox/gh-quickstart/generate/) and follow the instructions. Read more about this in [the GitHub's Template Repositories](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template) document.
 
 That's it. You now have a Docsify-enabled minimal GitHub repo, and is ready to preview locally.
 
 ## Preview Locally
 
-Once you have your copy of GitHub Quick Start source code, you will have to download the artifacts. Typically that is done using the Terminal, that is Command Prompt if you are a Windows user. Luckily, even if you are not familiar, these steps should be pretty easy to follow. [GitHub's Guide to install Git]() is a good source of information.
+Once you obtain your own copy of the GitHub Quickstart source code, you will have to download the artifacts. Typically that is done using the Terminal, that is Command Prompt if you are a Windows user. Luckily, even if you are not familiar, these steps should be pretty easy to follow. [Git and GitHub](https://try.github.io/) is a good source of information.
 
 First, spin up a Terminal and clone the newly created repository. For example, we will use one of our contributors, [@kosalanuwan](https://github.com/kosalanuwan), to keep the conversation alive.
 
@@ -47,7 +47,7 @@ docker-compose up -d
 That's it. Go to your favorite browser and visit [localhost:8020](http://localhost:8020).
 
 <p align="center">
-  <img alt="The template markdown in action" src="https://user-images.githubusercontent.com/958227/84371097-c5611580-abf6-11ea-9332-dca7b7438e00.png" width="786">
+  <img alt="The gh-quickstart template markdown in action" src="https://user-images.githubusercontent.com/958227/84496654-f1e66180-acca-11ea-8aa9-8b78ac53b4b2.png" width="786">
 </p>
 
 ## Final Touches
@@ -56,7 +56,7 @@ Once the project is up and running, you will want to tweak its content as you wi
 
 - Replace the repository paths to yours. Find and replace all `alertbox/gh-quickstart`, for example: `kosalanuwan/my-awesome-docsify`
 - Then replace the remaining repository names to yours. Find and replace all occurrences of `gh-quickstart`, for example: `my-awesome-docsify`
-- Next, replace the website name to your site name. Find and replace all `GitHub Quick Start`, for example: `My Awesome Docsify`
+- Next, replace the website name to your site name. Find and replace all `GitHub Quickstart`, for example: `My Awesome Docsify`
 - Replace all the screenshots too
 
-Next, refresh the browser, navigate around the site to see your updated content. [Docsify's Getting Started]() guide is a good source of information to further tweak your site.
+Next, refresh the browser, navigate around the site to see your updated content. [Docsify's Quick start](https://docsify.js.org/#/quickstart) guide is a good source of information to further tweak your site.

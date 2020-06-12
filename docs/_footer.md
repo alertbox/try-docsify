@@ -1,7 +1,7 @@
 
 ---
 
-> Was this guide helpful? Let us know by sending a message to [@alertboxinc](https://twitter.com/alertboxinc).
+?> Was this guide helpful? Let us know by sending a message to [@alertboxinc](https://twitter.com/alertboxinc).
 
 ---
 

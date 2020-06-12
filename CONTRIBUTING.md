@@ -49,7 +49,7 @@ git pull https://github.com/alertbox/gh-quickstart master
 
 #### Build and run from the source
 
-First, you want to ensure Docker Desktop is running on your machine so that the Docker Image `alertbox/docsify-served` able to pull from the [Docker Hub repository]().
+First, you want to ensure Docker Desktop is running on your machine so that the [Docker Image `alertbox/docsify-served`](https://hub.docker.com/r/alertbox/docsify-served) able to pull from the Docker Hub.
 
 ```bash
 #!/bin/bash
@@ -72,7 +72,7 @@ To avoid multiple pull requests resolving the same issue, let others know you ar
 
 ### Publishing
 
-At present, the template published via GitHub Pages and only have to do a minimal amount of work to update the hosted version. To get familiar, check out [GitHub Pages guide]().
+At present, the template is published via GitHub Pages from the `master` branch and only have to do a minimal amount of work to update the hosted version. To get familiar, check out [the GitHub Pages](https://lab.github.com/githubtraining/github-pages) Learning Lab.
 
 ### Discussion Etiquette
 
