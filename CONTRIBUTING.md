@@ -54,7 +54,7 @@ First, you want to ensure Docker Desktop is running on your machine so that the 
 ```bash
 #!/bin/bash
 cd gh-quickstart
-docker run -dp 8020:3000 -v `pwd`/docs:/var/www alertbox/docsify-served
+docker run -dp 8020:3000 -v `pwd`/docs:/var/www alertbox/docsify-served:4.4.1
 
 # Or
 cd gh-quickstart && docker-compose up -d

@@ -3,7 +3,7 @@ version: "3.8"
 services: 
 
   gh-quickstart:
-    image: alertbox/docsify-served
+    image: alertbox/docsify-served:4.4.1
     ports: 
       - 8020:3000/tcp
     volumes: 
