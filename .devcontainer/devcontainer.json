@@ -9,6 +9,12 @@
         "terminal.integrated.shell.linux": "/bin/zsh",
 
         // Extensions
+        "eslint.workingDirectories": [
+            {
+                "directory": "./test-project",
+                "changeProcessCWD": true
+            }
+        ],
         "liveServer.settings.NoBrowser": true,
         "liveServer.settings.port": 5500
     },
@@ -30,13 +36,14 @@
         "streetsidesoftware.code-spell-checker",
         "znck.grammarly",
         "redhat.fabric8-analytics",
-        "redhat.vscode-yaml"
+        "redhat.vscode-yaml",
+        "bierner.github-markdown-preview"
     ],
 
     // Use 'forwardPorts' to make a list of ports inside the container available locally.
     "forwardPorts": [
         // Live server port
-        3000
+        5500
     ],
 
     // Use 'postCreateCommand' to run commands after the container is created.
