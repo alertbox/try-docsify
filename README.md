@@ -28,7 +28,7 @@ If you are completely new to docsify, the [Quick Start guide](https://alertbox.g
 First, you want a copy of this repo. It is marked as a `Template` so you will only have to [Use This Template](https://github.com/alertbox/vscode-remote-try-docsify/generate/) and follow the instructions. Read more about this in [the GitHub's Template Repositories](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template) document.
 
 Next is clone the repo, then open in VS Code. You can  use [@github/cli](https://cli.github.com/) for this.
-```
+```zsh
 #!/bin/zsh
 gh repo clone kosalanuwan/vscode-remote-try-docsify
 code vscode-remote-try-docsify/
