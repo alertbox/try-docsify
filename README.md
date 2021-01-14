@@ -33,11 +33,11 @@ Next is clone the repo, then open in VS Code. You can  use [@github/cli](https:/
 gh repo clone kosalanuwan/vscode-remote-try-docsify
 code vscode-remote-try-docsify/
 ```
-Then, re-open the source in development container to install minimal required setup for you.
+Then, re-open the source code in the development container to install the minimal required setup for you.
 
 With VS Code:
 - Run task: `Reopen in Container`
-- Press `F5` to to preview locally
+- Press `F5` to preview locally
 
 ## Feedback
 If you have any technical problems with Docsify, you are better off [asking Docsify Support directly](https://gitter.im/docsifyjs), since you'll end up getting a much faster response back that way.
