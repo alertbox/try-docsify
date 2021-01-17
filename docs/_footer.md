@@ -5,4 +5,4 @@
 
 ---
 
-Maintained by [the Alertbox Team](https://github.com/alertbox/gh-quickstart/). Proudly published with [Docsify](https://docsify.js.io)
+Maintained by [the Alertbox Team](https://github.com/alertbox/). Proudly published with [Docsify](https://docsify.js.io)
