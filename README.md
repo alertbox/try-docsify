@@ -6,7 +6,7 @@
 This repository demonstrates developing a Docsify-enabled static site using Markdown and Development Containers. 
 
 <p align="center">
-  <img alt="The gh-quickstart in action" src="https://user-images.githubusercontent.com/958227/84496654-f1e66180-acca-11ea-8aa9-8b78ac53b4b2.png" width="1024">
+  <img alt="The quickstart site in action" src="https://user-images.githubusercontent.com/958227/104834940-19d51d80-58c9-11eb-9543-e3a5a1ca57b4.png" width="1024">
 </p>
 
 > The docsify-enabled site in action.
@@ -19,7 +19,7 @@ This repository demonstrates developing a Docsify-enabled static site using Mark
 
 ## Requirements
 See [@kosalanuwan/devcontainers](https://github.com/kosalanuwan/devcontainers) repository to get started at the most basic level, and:
-- A [Markdown](https://guides.github.com/features/mastering-markdown/) editor, the lightweight and easy-to-use syntax for all forms of writing on GitHub platform.
+- A [Markdown](https://guides.github.com/features/mastering-markdown/) editor, the lightweight and easy-to-use syntax for all forms of writing on the GitHub platform.
 
 ## Quick Start
 If you are completely new to docsify, the [Quick Start guide](https://alertbox.github.io/vscode-remote-try-docsify/#/quick-start) is a good source of information.
