@@ -29,7 +29,7 @@ For the old projects that are already running Docsify or you initialized using `
 - `quck-start.md` is How To Use This Template guide
 
 ## Feedback
-If you have technical problems with Docsify, you are better off [asking Docsify Support directly](https://gitter.im/docsifyjs), since you'll end up getting a must faster response back that way.
+If you have technical problems with Docsify, you are better off [asking Docsify Support directly](https://discord.gg/3NwKFyR), since you'll end up getting a must faster response back that way.
 
 Follow [@alertboxinc](https://twitter.com/alertboxinc) and let us know what you think!
 

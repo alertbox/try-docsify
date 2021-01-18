@@ -40,7 +40,7 @@ With VS Code:
 - Press `F5` to preview locally
 
 ## Feedback
-If you have any technical problems with Docsify, you are better off [asking Docsify Support directly](https://gitter.im/docsifyjs), since you'll end up getting a much faster response back that way.
+If you have any technical problems with Docsify, you are better off [asking Docsify Support directly](https://discord.gg/3NwKFyR), since you'll end up getting a much faster response back that way.
 
 ## Contributing
 The official repo to contribute would be [@docsifyjs/docsify](https://github.com/docsifyjs/docsify).
