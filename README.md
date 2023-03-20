@@ -1,51 +1,64 @@
-# Try out Docsify-enabled static site
+# Tryout Docsify
 
 [![docsify](https://img.shields.io/badge/maintained%20with-docsify-cc00ff.svg)](https://docsify.js.org/)
-![GitHub repo size](https://img.shields.io/github/repo-size/alertbox/vscode-remote-try-docsify)
+![GitHub repo size](https://img.shields.io/github/repo-size/alertbox/devcontainers-try-docsify)
 
-This repository demonstrates developing a Docsify-enabled static site using Markdown and Development Containers. 
+This repo serves as a ready-to-go docsify template that requires no build steps.
 
 <p align="center">
-  <img alt="The quickstart site in action" src="https://user-images.githubusercontent.com/958227/104834940-19d51d80-58c9-11eb-9543-e3a5a1ca57b4.png" width="1024">
+  <img alt="The docsify site in action" src="Screenshot.png" width="1024">
 </p>
 
-> The docsify-enabled site in action.
+
+> The dead simple docsify template in action.
 
 ### What's included:
-- Uses node development container found in [@kosalanuwan/devcontainers](https://github.com/kosalanuwan/devcontainers)
-- Uses [@docsifyjs/docsify-cli](https://github.com/docsifyjs/docsify-cli) latest version for serving static site
-- Configured to build and run from VS Code
-- Contains boilerplate docs for a quick preview
+
+Technically, this includes nothing but:
+
+- A simple template found in [@docsifyjs/docsify-template][docsify-template-repo] repo, and
+- Configured to preview locally
+
+[docsify-template-repo]: https://github.com/docsifyjs/docsify-template
 
 ## Requirements
-See [@kosalanuwan/devcontainers](https://github.com/kosalanuwan/devcontainers) repository to get started at the most basic level, and:
-- A [Markdown](https://guides.github.com/features/mastering-markdown/) editor, the lightweight and easy-to-use syntax for all forms of writing on the GitHub platform.
+
+See [Docker dev environments][docker-dev-envs-overview] to get started at the most basic level, and:
+- A GitHub account, and
+- A [Markdown][github-markdown-guides] editor, like [Typora][typora-install], a lightweight and easy-to-use syntax for all forms of writing on the GitHub platform
+
+[docker-dev-envs-overview]: https://docs.docker.com/desktop/dev-environments/
+[github-markdown-guides]: https://guides.github.com/features/mastering-markdown/
+[typora-install]: https://www.typora.io/
 
 ## Quick Start
-If you are completely new to docsify, the [Quick Start guide](https://alertbox.github.io/vscode-remote-try-docsify/#/quick-start) is a good source of information.
 
-### Build and run from source
-First, you want a copy of this repo. It is marked as a `Template` so you will only have to [Use This Template](https://github.com/alertbox/vscode-remote-try-docsify/generate/) and follow the instructions. Read more about this in [the GitHub's Template Repositories](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template) document.
+If you are completely new to docsify, the [Quick Start guide][docsify-quick-start] is a good source of information.
 
-Next is clone the repo, then open in VS Code. You can  use [@github/cli](https://cli.github.com/) for this.
-```zsh
-#!/bin/zsh
-gh repo clone kosalanuwan/vscode-remote-try-docsify
-code vscode-remote-try-docsify/
-```
-Then, re-open the source code in the development container to install the minimal required setup for you.
+Just upload the files to any static web server. Or follow this generic pattern:
 
-With VS Code:
-- Run task: `Reopen in Container`
-- Press `F5` to preview locally
+First, you want a copy of this repo. It is marked as a `Template` so you will only have to [Use this template][use-this-template] and follow the instructions. Read more about this in [the GitHub's Template Repositories][github-template-repos-help] document.
+
+Then, you can [write more contents][docsify-write-more] and preview on [localhost:3000](http://localhost:3000). Just run `docker compose -f compose-dev.yaml -d` in the repo.
+
+That's it!
+
+[docsify-quick-start]: https://docsify.js.org/#/quickstart
+[use-this-template]: https://github.com/alertbox/devcontainers-try-docsify/generate/
+[github-template-repos-help]: https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template
+[docsify-write-more]: https://docsify.js.org/#/more-pages
 
 ## Feedback
-If you have any technical problems with Docsify, you are better off [asking Docsify Support directly](https://discord.gg/3NwKFyR), since you'll end up getting a much faster response back that way.
+If you have any technical problems with Docsify, you are better off [asking Docsify Support directly][docsify-support], since you'll end up getting a much faster response back that way.
+
+[docsify-support]: https://discord.gg/3NwKFyR
 
 ## Contributing
-The official repo to contribute would be [@docsifyjs/docsify](https://github.com/docsifyjs/docsify).
+The official repo to contribute would be [@docsifyjs][docsify-github].
+
+[docsify-github]: https://github.com/docsifyjs
 
 ## License
-Copyright &copy; Alertbox Inc. All rights reserved.
+Copyright (c) Alertbox Inc. All rights reserved.
 
 The source code is license under the [MIT License](LICENSE).

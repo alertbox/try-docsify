@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ready to Go</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description"
+    content="A ready-to-go template, start with docsify js. This content is imported from @docsifyjs/docisfy-template repo.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/dark.css">
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: 'Ready to Go',
+
+      // add the GitHub Corner widget in the top right corner of the site
+      repo: 'alertbox/devcontainers-try-docsify',
+
+      // display the file update date
+      formatUpdated: '{MM}/{DD} {HH}:{mm}',
+
+      auto2top: true,
+
+      // load from _footer.md
+      loadFooter: true,
+
+      // load from _404.md
+      notFoundPage: true,
+
+      executeScript: true,
+    }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/@alertbox/docsify-footer/dist/docsify-footer.min.js"></script>
+</body>
+</html>

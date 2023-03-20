@@ -1,0 +1,12 @@
+services:
+  node:
+    image: node:lts-bullseye
+    container_name: stoic_goldstine
+    ports:
+      - 3000:3000
+    working_dir: /workspaces
+    volumes:
+      - ./:/workspaces:cached
+    # To serve with docsify cli, try `npx docsify-cli serve . -p 3000`
+    # Or use yarn scripts (package.json).
+    command: /bin/sh -c "npx serve . --listen 3000"
