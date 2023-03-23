@@ -1,54 +1,74 @@
 {
-    "name": "try-docsify",
-    "dockerComposeFile": "docker-compose.yml",
-    "service": "app",
-    "workspaceFolder": "/workspace",
+	"name": "try-docsify",
+	// See complete list https://hub.docker.com/_/node/tags?page=1&name=bullseye
+    "image": "node:lts-bullseye",
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	"forwardPorts": [
+        // Http
+        3000,
+        // Https
+        3001
+    ],
 
-    // Set *default* container specific settings.json values on container create.
-    "settings": {
-        "terminal.integrated.shell.linux": "/bin/zsh",
+	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+	"remoteUser": "root",
 
-        // Extensions
-        "eslint.workingDirectories": [
-            {
-                "directory": "./test-project",
-                "changeProcessCWD": true
+    // Add more features. See complete list https://github.com/devcontainers/features
+	"features": {
+		// Permission denied. More info: https://github.com/devcontainers/features/issues/440
+		"ghcr.io/devcontainers/features/common-utils:2": {
+			"configureZshAsDefaultShell": true
+		},
+		"ghcr.io/devcontainers/features/github-cli:1": {}
+	},
+    "containerEnv": {},
+    // Configure tool-specific properties.
+	"customizations": {
+		// Configure properties specific to VS Code.
+		"vscode": {
+			// Add the IDs of extensions you want installed when the container is created.
+			"extensions": [
+                "ms-azuretools.vscode-docker",
+                "ms-vscode-remote.remote-containers",
+                "redhat.vscode-yaml",
+                
+                "visualstudioexptteam.vscodeintellicode",
+                "dbaeumer.vscode-eslint",
+                "usernamehw.errorlens",
+                "christian-kohler.npm-intellisense",
+                "eg2.vscode-npm-script",
+                
+                "ritwickdey.live-sass",
+                
+                "editorconfig.editorconfig",
+                "esbenp.prettier-vscode",
+                
+                "bierner.github-markdown-preview",
+                "streetsidesoftware.code-spell-checker",
+                "znck.grammarly",
+
+                "redhat.fabric8-analytics",
+                "ms-vscode.wordcount"              
+			],
+			// Set *default* container specific settings.json values on container create.
+			"settings": {
+				"terminal.integrated.defaultProfile.linux": "zsh",
+
+				"editor.formatOnPaste": true,
+				"editor.guides.bracketPairs": "active",
+				"debug.internalConsoleOptions": "neverOpen",
+
+                "scm.defaultViewMode": "tree",
+
+				"files.watcherExclude": {
+					"**/node_modules/**": true
+				}
             }
-        ],
-        "liveServer.settings.NoBrowser": true,
-        "liveServer.settings.port": 5500
-    },
+		}
+	},
 
-    // Add the IDs of extensions you want installed when the container is created.
-    "extensions": [
-        "ms-azuretools.vscode-docker",
-
-        "dbaeumer.vscode-eslint",
-        "christian-kohler.npm-intellisense",
-        "eg2.vscode-npm-script",
-        "ritwickdey.liveserver",
-        "ritwickdey.live-sass",
-
-        "visualstudioexptteam.vscodeintellicode",
-        "ms-vscode.wordcount",
-        "editorconfig.editorconfig",
-        "esbenp.prettier-vscode",
-        "streetsidesoftware.code-spell-checker",
-        "znck.grammarly",
-        "redhat.fabric8-analytics",
-        "redhat.vscode-yaml",
-        "bierner.github-markdown-preview"
-    ],
-
-    // Use 'forwardPorts' to make a list of ports inside the container available locally.
-    "forwardPorts": [
-        // Live server port
-        5500
-    ],
-
-    // Use 'postCreateCommand' to run commands after the container is created.
-    "postCreateCommand": "zsh .devcontainer/post-create.zsh",
-
-    // Comment out connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
-    "remoteUser": "node"
+	// Use 'updateContentCommand' to run commands after the container is successfully created.
+	"updateContentCommand": "yarn global add docsify-cli@latest --prefix /usr/local",
+	// Use 'postCreateCommand' to run commands after the container is created.
+	"postCreateCommand": "docsify serve . -p 3000"
 }
