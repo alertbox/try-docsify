@@ -4,10 +4,10 @@
     "image": "node:lts-bullseye",
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	"forwardPorts": [
-        // Http
+        // Localhost
         3000,
-        // Https
-        3001
+        // Live reload
+        35729
     ],
 
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
@@ -70,5 +70,5 @@
 	// Use 'updateContentCommand' to run commands after the container is successfully created.
 	"updateContentCommand": "yarn global add docsify-cli@latest --prefix /usr/local",
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "docsify serve . -p 3000"
+	"postCreateCommand": "docsify serve . -P 35729"
 }

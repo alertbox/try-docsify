@@ -1,9 +1,9 @@
 # Tryout Docsify
 
-[![docsify](https://img.shields.io/badge/maintained%20with-docsify-cc00ff.svg)](https://docsify.js.org/)
+[![alertbox](https://img.shields.io/badge/maintained%20by-alertbox-cc00ff.svg)](https://github.com/alertbox/devcontainers-try-docsify/)
 ![GitHub repo size](https://img.shields.io/github/repo-size/alertbox/devcontainers-try-docsify)
 
-[<img align="right" alt="Docsify" width="128rem" src="https://avatars.githubusercontent.com/u/40133106?s=200&v=4" />][docsify-quick-start]
+[<img align="right" alt="Docsify devcontainer repo size" width="128rem" src="https://avatars.githubusercontent.com/u/40133106?s=200&v=4" />][docsify-quick-start]
 
 This template repo serves as a flavor of ready-to-go development container for use with [Dev Containers][devcontainers-overview].
 
@@ -60,7 +60,7 @@ First, you want a copy of this repo. It is marked as a `Template` so you will on
 
 With [Dev Container CLI][devcontainer-cli-commands]:
 
-Just run `devcontainer up devcontainers-try-docsify` in the repo. And that's it. Now you can [write more contents][docsify-write-more] and preview on [localhost:3000](http://localhost:3000).
+Just run `devcontainer up devcontainers-try-docsify` in the repo. And that's it. Now you can [write more contents][docsify-write-more] and live preview on [localhost:3000](http://localhost:3000).
 
 [devcontainer-cli-commands]: https://github.com/devcontainers/cli#try-out-the-cli
 [docsify-write-more]: https://docsify.js.org/#/more-pages
@@ -72,6 +72,11 @@ With VS Code:
 First, run `code devcontainers-try-docsify/` in the repo to open in VS Code, and then it'll prompt to `Reopen in Container`. Do that and we're all set.
 
 
+
+## Known Issues
+
+- https://github.com/docsifyjs/docsify-cli/issues/26#issuecomment-1483757192
+- https://github.com/docsifyjs/docsify-cli/issues/120#issuecomment-1483753553
 
 ## Learning Resources
 
