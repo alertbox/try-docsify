@@ -1,8 +1,8 @@
 {
 	"name": "try-docsify",
 	// See complete list https://hub.docker.com/_/node/tags?page=1&name=bullseye
-    "image": "node:lts-bullseye",
-	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    // Use 'forwardPorts' to make a list of ports inside the container available locally.
 	"forwardPorts": [
         // Localhost
         3000,
@@ -19,8 +19,12 @@
 		"ghcr.io/devcontainers/features/common-utils:2": {
 			"configureZshAsDefaultShell": true
 		},
-		"ghcr.io/devcontainers/features/github-cli:1": {}
-	},
+		"ghcr.io/devcontainers/features/github-cli:1": {},
+        "ghcr.io/devcontainers/features/node:1": "lts",
+        "ghcr.io/alertbox/oven-sh/bun:1": {
+            "packages": "docsify-cli@latest"
+        }
+    },
     "containerEnv": {},
     // Configure tool-specific properties.
 	"customizations": {
@@ -28,38 +32,26 @@
 		"vscode": {
 			// Add the IDs of extensions you want installed when the container is created.
 			"extensions": [
-                "ms-azuretools.vscode-docker",
-                "ms-vscode-remote.remote-containers",
+                "editorconfig.editorconfig",
                 "redhat.vscode-yaml",
-                
+                "tamasfe.even-better-toml",
+
                 "visualstudioexptteam.vscodeintellicode",
                 "dbaeumer.vscode-eslint",
-                "usernamehw.errorlens",
                 "christian-kohler.npm-intellisense",
-                "eg2.vscode-npm-script",
-                
-                "ritwickdey.live-sass",
-                
-                "editorconfig.editorconfig",
+
+                "glenn2223.live-sass",
                 "esbenp.prettier-vscode",
-                
                 "bierner.github-markdown-preview",
                 "streetsidesoftware.code-spell-checker",
-                "znck.grammarly",
-
-                "redhat.fabric8-analytics",
-                "ms-vscode.wordcount"              
+                "redhat.fabric8-analytics"
 			],
 			// Set *default* container specific settings.json values on container create.
 			"settings": {
 				"terminal.integrated.defaultProfile.linux": "zsh",
-
-				"editor.formatOnPaste": true,
 				"editor.guides.bracketPairs": "active",
 				"debug.internalConsoleOptions": "neverOpen",
-
                 "scm.defaultViewMode": "tree",
-
 				"files.watcherExclude": {
 					"**/node_modules/**": true
 				}
@@ -68,7 +60,7 @@
 	},
 
 	// Use 'updateContentCommand' to run commands after the container is successfully created.
-	"updateContentCommand": "yarn global add docsify-cli@latest --prefix /usr/local",
+	// "updateContentCommand": "yarn global add docsify-cli@latest --prefix /usr/local",
 	// Use 'postCreateCommand' to run commands after the container is created.
 	"postCreateCommand": "docsify serve . -P 35729"
 }
